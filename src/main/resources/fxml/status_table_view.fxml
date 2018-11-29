@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.cell.*?>
+<?import javafx.scene.control.*?>
+<TableView fx:id="table_TV" onMouseClicked="#table_TV_mouseClick" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.futurteam.conveyor.controllers.StatusTableController">
+  <columns>
+    <TableColumn minWidth="-1.0" prefWidth="-1.0" text="№">
+      <cellValueFactory>
+        <PropertyValueFactory property="processorNumber" />
+      </cellValueFactory>
+    </TableColumn>
+    <TableColumn minWidth="-1.0" prefWidth="-1.0" text="З">
+      <cellValueFactory>
+        <PropertyValueFactory property="employment" />
+      </cellValueFactory>
+    </TableColumn>
+    <TableColumn minWidth="-1.0" prefWidth="-1.0" text="П">
+      <cellValueFactory>
+        <PropertyValueFactory property="execution" />
+      </cellValueFactory>
+    </TableColumn>
+    <TableColumn minWidth="-1.0" prefWidth="-1.0" text="В">
+      <cellValueFactory>
+        <PropertyValueFactory property="completed" />
+      </cellValueFactory>
+    </TableColumn>
+    <TableColumn minWidth="-1.0" prefWidth="-1.0" text="О">
+      <cellValueFactory>
+        <PropertyValueFactory property="tasksCount" />
+      </cellValueFactory>
+    </TableColumn>
+    <TableColumn minWidth="-1.0" prefWidth="-1.0" text="Н">
+      <cellValueFactory>
+        <PropertyValueFactory property="load" />
+      </cellValueFactory>
+    </TableColumn>
+    <TableColumn minWidth="-1.0" prefWidth="-1.0" text="In">
+      <cellValueFactory>
+        <PropertyValueFactory property="inCash" />
+      </cellValueFactory>
+    </TableColumn>
+    <TableColumn minWidth="-1.0" prefWidth="-1.0" text="Out">
+      <cellValueFactory>
+        <PropertyValueFactory property="outCash" />
+      </cellValueFactory>
+    </TableColumn>
+  </columns>
+  <columnResizePolicy>
+    <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+  </columnResizePolicy>
+</TableView>

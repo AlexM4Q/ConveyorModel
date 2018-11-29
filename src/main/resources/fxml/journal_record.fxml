@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TitledPane?>
+<TitledPane fx:controller="com.futurteam.conveyor.controllers.JournalRecordController" fx:id="root_TP" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
+  <fx:include fx:id="status_TV" source="status_table_view.fxml" />
+</TitledPane>

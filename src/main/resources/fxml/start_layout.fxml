@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.SplitPane?>
+<SplitPane dividerPositions="0.333, 0.666" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.futurteam.conveyor.controllers.StartController">
+  <fx:include fx:id="leftBarLayout" source="left_bar_layout.fxml" />
+  <fx:include fx:id="rightBarLayout" source="right_bar_layout.fxml" />
+  <fx:include fx:id="tasksList" source="tasks_list.fxml" />
+</SplitPane>
